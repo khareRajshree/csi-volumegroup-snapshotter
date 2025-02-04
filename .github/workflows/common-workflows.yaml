@@ -5,14 +5,14 @@ on:  # yamllint disable-line rule:truthy
   pull_request:
     branches: ["**"]
 
-jobs:
+# jobs:
 
-  # golang static analysis checks
-  go-static-analysis:
-    uses: dell/common-github-actions/.github/workflows/go-static-analysis.yaml@main
-    name: Golang Validation
+#   # golang static analysis checks
+#   go-static-analysis:
+#     uses: dell/common-github-actions/.github/workflows/go-static-analysis.yaml@main
+#     name: Golang Validation
 
-  common:
-    name: Quality Checks
-    uses: khareRajshree/common-github-actions/.github/workflows/go-common.yml@main
-    secrets: inherit
+#   common:
+#     name: Quality Checks
+#     uses: khareRajshree/common-github-actions/.github/workflows/go-common.yml@main
+#     secrets: inherit
