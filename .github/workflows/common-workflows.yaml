@@ -1,9 +1,9 @@
-name: Common Workflows
-on:  # yamllint disable-line rule:truthy
-  push:
-    branches: [main]
-  pull_request:
-    branches: ["**"]
+# name: Common Workflows
+# on:  # yamllint disable-line rule:truthy
+#   push:
+#     branches: [main]
+#   pull_request:
+#     branches: ["**"]
 
 # jobs:
 
